@@ -1,4 +1,4 @@
-minetest.register_node("tech:roof_ridge_tile", {
+minetest.register_node("exile_roof_ridge_tiles:roof_ridge_tile", {
     description = S("Roof Ridge Tile"),
     tiles = { "tech_roof_tiles.png" },
     stack_max = minimal.stack_max_medium,
@@ -25,7 +25,7 @@ minetest.register_node("tech:roof_ridge_tile", {
 
 crafting.register_recipe({
     type = "brick_makers_bench",
-    output = "tech:roof_ridge_tile",
+    output = "exile_roof_ridge_tiles:roof_ridge_tile",
     items = { "tech:roof_tile" },
     level = 1,
     always_known = true,
